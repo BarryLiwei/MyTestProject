@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>百应测试主动外拨</title>
+    <link rel="stylesheet" href="aicc-sdk.css"/>
+    <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+
+<button onClick="initSDK()">初始化</button>
+
+<div id="phone-slot"></div>
+<div id="contact-sdk"></div>
+
+<script>
+function  initSDK() {
+    const slot = document.getElementById('phone-slot');
+    if (slot) {
+        new window.AiccSdk.default({
+            companyId: '34590',
+            mobile: '13168766000',
+            client_id: '9vVgN0xsBFpSuz8W',
+            client_secret: 'c2lhuHLS0Z6beCFC07lPniiDEGSR1A',
+            phoneRenderSlot: slot,
+        });
+    }
+}
+</script>
+<script src="aicc-sdk.js"></script>
+</body>
+</html>
