@@ -24,7 +24,7 @@
     "babel-polyfill": "^6.26.0",
     "echarts": "^4.2.1",
     "element-ui": "^2.4.11",
-    "highcharts": "^7.0.3",
+    "highcharts": "^9.0.0",
     "hls.js": "^0.13.2",
     "jquery": "^3.4.1",
     "moment": "^2.24.0",
