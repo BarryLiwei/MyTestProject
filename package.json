@@ -28,7 +28,7 @@
     "hls.js": "^0.13.2",
     "jquery": "^3.4.1",
     "moment": "^2.24.0",
-    "node-sass": "^4.9.4",
+    "node-sass": "^7.0.0",
     "qrcodejs2": "^0.0.2",
     "sass-loader": "^7.1.0",
     "vue": "^2.5.2",
